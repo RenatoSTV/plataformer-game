@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="17" nextobjectid="8">
+ <editorsettings>
+  <export target="map2.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="ground" tilewidth="64" tileheight="64" tilecount="91" columns="13">
+  <image source="TilesExamples2x.png" width="832" height="480"/>
+ </tileset>
+ <objectgroup id="2" name="GroundObj">
+  <object id="1" x="0" y="255.667" width="64.6667" height="384.333"/>
+  <object id="2" x="64.6667" y="420.833" width="449.333" height="219.167"/>
+  <object id="3" x="512.667" y="384" width="318.667" height="255.333"/>
+  <object id="4" x="552.667" y="351.94" width="241.333" height="31.394"/>
+  <object id="5" x="832" y="420.625" width="320.667" height="219.375"/>
+  <object id="6" x="1216" y="320.667" width="64.6667" height="319.333"/>
+  <object id="7" x="1151.92" y="384.25" width="64.0417" height="255.75"/>
+ </objectgroup>
+ <layer id="1" name="Ground" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,
+30,0,0,0,0,0,0,0,8,35,35,35,10,0,0,0,0,0,2,2684354588,
+17,3,3,3,3,3,3,3,15,16,16,16,17,3,3,3,3,3,15,16,
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,
+16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,1610612774,1610612774,1610612774,
+81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81
+</data>
+ </layer>
+</map>
